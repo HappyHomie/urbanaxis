@@ -1,0 +1,24 @@
+/*...........name convention BEM.........*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*................block...............*/
+.footer{
+    display: flex;
+    background-color: #431C60;
+    justify-content: space-between;
+}
+
+/*.........elements..........................*/
+
+.footer__position{
+    margin: 5% 10% 4% 10%;
+}
+
+/*..............modyfier..............*/
+
+.footer__position--align{
+    margin-top: 6%;
+}
