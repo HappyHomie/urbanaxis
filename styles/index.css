@@ -3,8 +3,7 @@
 /*........Block............*/
 .h1style{
     font-family: Verdana;
-    width: 131px; 
-    height: 30px;
+    font-size: 25px;
 }
 .pstyle{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,17 +14,25 @@
     background-color: #7B1FA2;
     color: white;
     border: #707070;
-    margin: 7px auto;
+    margin: 20px auto;
+    font-size: 15px;
     display: grid;
     justify-content: center;
     align-self: center;
 }
 .background{
+    margin-top: 25%;
     background-image: url(../assets/IMG/background-main.png);
+    background-color: #301545;
+}
+.img-container{
+    width: 108px;
+    height: 131px;
 }
 /*...........elements...............*/
 
 /*...........modyfier..................*/
 .h1style--center{
-    margin: 0 auto;
+    text-align: center;
+    color: white;
 }
