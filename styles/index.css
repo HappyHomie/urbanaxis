@@ -4,14 +4,16 @@
 .h1style{
     font-family: Verdana;
     font-size: 25px;
+    font-weight: normal;
 }
 .pstyle{
     font-family: Arial, Helvetica, sans-serif;
     width: 315px; 
+    font-size: 12px;
     height: 48px;
 }
 .start-button{
-    background-color: #7B1FA2;
+    background: linear-gradient(to right,#4C26A0, #7B1FA2);
     color: white;
     border: #707070;
     margin: 20px auto;
@@ -28,11 +30,14 @@
 .img-container{
     width: 108px;
     height: 131px;
+    margin-left: 33%;
 }
 /*...........elements...............*/
+
 
 /*...........modyfier..................*/
 .h1style--center{
     text-align: center;
     color: white;
+    margin-bottom: 18%;
 }
