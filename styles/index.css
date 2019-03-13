@@ -1,3 +1,6 @@
+/* ........name convention BEM.......*/
+
+/*........Block............*/
 .h1style{
     font-family: Verdana;
     width: 131px; 
@@ -12,8 +15,17 @@
     background-color: #7B1FA2;
     color: white;
     border: #707070;
-    margin: 7px;
-    display: flex;
+    margin: 7px auto;
+    display: grid;
     justify-content: center;
     align-self: center;
+}
+.background{
+    background-image: url(../assets/IMG/background-main.png);
+}
+/*...........elements...............*/
+
+/*...........modyfier..................*/
+.h1style--center{
+    margin: 0 auto;
 }
