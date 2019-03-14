@@ -1,0 +1,11 @@
+/*...........name convention BEM.........*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*................block...............*/
+.footer{
+    display: flex;
+    background-color: #431C60;
+}
