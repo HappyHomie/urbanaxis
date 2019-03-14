@@ -31,8 +31,15 @@
     display: flex;
     margin: 20%;
 }
+.form-container{
+    color: white;
+    display: grid;
+}
 /*...........elements...............*/
-
+.form-container__input{
+    background-color: #261136;
+    border: #4826A0;
+}
 /*...........modyfier..................*/
 .img-container--pstyle{
     color: white;
