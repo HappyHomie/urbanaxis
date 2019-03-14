@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/profilom.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <title>Profil</title>
 </head>
+
 <body>
     <header class="profil">
         <img class="profil__tilbage" src="./images/tilbage.png" alt="tilbage">
         <img class="profil__billede" src="./images/Top Bar.png" alt="profilbillede">
         <h1 class="profil__navn">Sarah Parmenter</h1>
         <h2 class="profil__by">ROSKILDE, DENMARK</h2>
-
     </header>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="navbar__box--active" >
+            <a class="navbar__box__link--active" href="">OM</a>
+        </div>
+        <div class="navbar__box" >
+            <a class="navbar__box__link" href="">FAVORITTER</a>
+        </div>
+        <div class="navbar__box" >
+            <a class="navbar__box__link" href="">GALLERY</a>
+        </div>
+    </nav>
+    <!--NAVBAR SLUT-->
+    <main>
+        <section class="info">
+            <p class="info--text">Student at Roskilde Technical College.</p>
+            <hr>
+            <div class="info__social">
+                <img src="./images/Web.png" alt="Web">
+                <p>www.sarahparmenter.com <br>SarahParmenter - Instagram</p>
+            </div>
+            <div class="info__social">
+                <img src="./images/Messages.png" alt="Mail">
+                <p>sarah@urbanaxis.com</p>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
