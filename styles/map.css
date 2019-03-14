@@ -1,0 +1,19 @@
+/*............name convention BEM............*/
+
+/*........blocks.................*/
+
+.h1style{
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: normal;
+}
+.pstyle{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 315px; 
+    font-size: 12px;
+    height: 48px;
+}
+.background{
+    background-color: #301545;
+    background-image: url(../assets/images/Image5.png);
+}

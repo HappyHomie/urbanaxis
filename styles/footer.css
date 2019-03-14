@@ -9,6 +9,9 @@
     display: flex;
     background-color: #431C60;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 /*.........elements..........................*/
