@@ -28,17 +28,14 @@
     background-color: #301545;
 }
 .img-container{
-    width: 61px;
-    height: 74px;
-    margin-left: 33%;
     display: flex;
+    margin: 20%;
 }
 /*...........elements...............*/
 
 /*...........modyfier..................*/
 .img-container--pstyle{
     color: white;
+    margin: auto;
 }
-.img-container--img{
-    
-}
+
