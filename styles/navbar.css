@@ -1,9 +1,11 @@
+/*block*/
 .navbar{
     background-color: #431C60;
     height: 48px;
     display: flex;
     justify-content: space-between;
 }
+/*element*/
 .navbar__box{
     width: 33.33%;
     height: 48px;
@@ -17,7 +19,7 @@
     color: #A648EB;
     align-self: center;
 }
-/*ACTIVE*/
+/*modifier*/
 .navbar__box--active{
     width: 33.33%;
     height: 48px;
