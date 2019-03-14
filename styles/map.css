@@ -5,6 +5,9 @@
 .margin{
     margin: 0;
 }
+.footer{
+    z-index: 2;
+}
 
 .h1style{
     font-family: Verdana;
