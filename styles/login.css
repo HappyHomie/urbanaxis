@@ -1,11 +1,6 @@
 /* ........name convention BEM.......*/
 
 /*........Block............*/
-.h1style{
-    font-family: Verdana;
-    font-size: 25px;
-    font-weight: normal;
-}
 .pstyle{
     font-family: Arial, Helvetica, sans-serif;
     width: 315px; 
@@ -62,12 +57,14 @@
 }
 .pstyle__last--line{
     text-align: center;
-    color: grey;
     text-decoration-line: underline;
     text-decoration-color: grey;
+    color: grey;
 }
 .start-button--white{
     color: white;
     text-decoration: none;
 }
-
+.footerstyle--last{
+    margin-top: 100px;
+}

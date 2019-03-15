@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Start side</title>
-    <link rel="stylesheet" href="./styles/register.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body class="background">
     <main>
@@ -14,18 +14,20 @@
             <p class="img-container--pstyle">Din rejsekammerat</p>
         </figure>
         <form action="" class="form-container">
-            <label class="form-container__label" for="username">Fulde navn</label>
-            <input class="form-container__input" id="username" name="username" type="text" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]">
             <label class="form-container__label" for="mail">Email adresse</label>
+            <br>
             <input class="form-container__input" id="mail" name="mail" type="mail" required minlength="5" maxlength="15">
+            <br>
             <label class="form-container__label" for="pw">Adgangskode</label>
+            <br>
             <input class="form-container__input" id="pw" name="password" type="password" required minlength="8" maxlength="15">
-            <label class="form-container__label" for="pw">Gentag Adgangskode</label>
-            <input class="form-container__input" name="password" id="pw"type="password">
         </form>
-        <button class="pstyle start-button"><a class="start-button--white" href="./index.html">Register</a></button>
-        <p class="pstyle__last">Allerede registreret?</p>
-        <p class="pstyle__last--line"><a class="pstyle__last--line" href="./login.html">LOGIN</a></p>
+        <button class="pstyle start-button"><a class="start-button--white" href="./oplev.html">LOGIN</a></button>
+        <p class="pstyle__last">Glemt adgangskode?</p>
     </main>
+    <footer class="footerstyle--last">
+        <p class="pstyle__last">Brug for en profil?</p>
+        <p class="pstyle__last"><a class="pstyle__last--line" href="./register.html">REGISTER</a></p>
+    </footer>
 </body>
 </html>
