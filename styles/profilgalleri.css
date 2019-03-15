@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.profil{
+    background-image: linear-gradient(to bottom left, #7B1FA2, #4527A0);
+    height: 356px;
+}
+.profil__tilbage{
+    position: absolute;
+    margin: 30px 10px;
+}
+.profil__billede{
+    height: 140px;
+    width: 140px;
+    margin: 72px 118px 0px 118px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profil__navn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px 107px 10px 107px;
+}
+.profil__by{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    margin: 0px 133px 0px 133px;
+}
+.profil__button__besked{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #431C60;
+    width: 122px;
+    height: 46px;
+    margin: 20px 15px 25px 51px;
+    border: none;
+}
+.profil__button__følg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    width: 122px;
+    height: 46px;
+    margin: 20px 51px 25px 0px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+}
+.galleri{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: #261136;
+    padding: 10px 5px;
+}
+.galleri__billede{
+    width: 88px;
+    height: 90px;
+}
+/*................block...............*/
+.footer{
+    display: flex;
+    background-color: #431C60;
+    justify-content: space-between;
+}
+/*.........elements..........................*/
+.footer__position{
+    margin: 5% 10% 4% 10%;
+}
+/*..............modyfier..............*/
+
+.footer__position--align{
+    margin-top: 6%;
+}
