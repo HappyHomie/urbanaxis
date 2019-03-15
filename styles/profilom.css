@@ -60,18 +60,3 @@
     width: 16px;
     margin-right: 30px;
 }
-/*................block...............*/
-.footer{
-    display: flex;
-    background-color: #431C60;
-    justify-content: space-between;
-}
-/*.........elements..........................*/
-.footer__position{
-    margin: 5% 10% 4% 10%;
-}
-/*..............modyfier..............*/
-
-.footer__position--align{
-    margin-top: 6%;
-}
