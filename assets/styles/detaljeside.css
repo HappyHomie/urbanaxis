@@ -1,24 +1,139 @@
+/*-------------name convention BEM-----------*/
 * {
     margin: 0px;
     padding: 0px;
 }
 
+
+/*-------------block-------------------------*/
 .topcontainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1.2fr;
-    height: 800px;
-    background-color: #7B1FA2;
+    grid-template-rows: 288px 1fr;
+    height: 100vh;
+    background-color: #261136;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img {
+.infocontainer {
+    padding: 30px 30px 0 30px;
+    text-align: justify;
+}
+
+.profilmail {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 166px;
+    padding-top: 25px;
+    background-color: #261136;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-layout-grid-rows: 1fr 1fr;
+}
+/*-------------element-------------------------*/
+.maincontainer {
+    z-index: -1;
      grid-row: 1 / 2;
+     
 }
 
 .h3 {
    grid-row: 2 / 3;
+   text-align: justify;
+   padding-bottom: 50px;
+   font-family: 'Julius Sans One', sans-serif;
+   
 }
 
-.detaljeside {
+.p {
+    grid-row: 2 / 3;
+    font-size: 5px;
+    text-align: justify;
+    
+}
+
+.starbutton {
+    position: absolute;
+    right: 20px;
+    top:252px;
+}
+
+.mainpicture {
+    object-fit: cover;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.profilimg {
+    justify-items: center;
+    align-self: center;
+    padding-left: 16px;
+}
+
+
+.mailbutton {
+    justify-items: center;
+    align-self: center;
+    padding-left: 16px;
+}
+
+.anmeldelser {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-size: 10px;
+    justify-self: center;
+    align-self: center;
+    color: darkgrey;
+    padding: 0px 50px 20px 10px;
+    
+}
+
+.name {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: flex-end;
+    padding-left: 20px;
+    /*padding: 20px 0 0 10px;  */
+}
+
+.rating {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: flex-start;
+    align-self: flex-end;
+    padding-bottom: 3px;
+}
+
+.backbutton {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+/*-------------modifier-------------------------*/
+
+.information--position-one {
+     grid-column: 2 / 3;
+     grid-row: 1 / 2;
+}
+
+.information--position-two {
+    grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
+.mailbutton--postion-one {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.mailbutton--postion-two {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
