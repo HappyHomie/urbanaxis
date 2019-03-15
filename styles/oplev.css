@@ -19,16 +19,11 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    background: linear-gradient(to right,#4C26A0, #7B1FA2);
 }
 .header-container__titel{
     padding: 31px 20px 13px 55px;
     color: white;
-}
-.header-container__search-background{
-    position: absolute;
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
 }
 
 .header-container__search {
