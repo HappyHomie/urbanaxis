@@ -16,32 +16,58 @@
     background: linear-gradient(to right,#4C26A0, #7B1FA2);
     color: white;
     border: #707070;
-    margin: 20px auto;
+    margin: 30px auto;
     font-size: 15px;
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-self: center;
+    width: 90%;
+    
 }
 .background{
-    margin-top: 25%;
     background-image: url(../assets/IMG/background-main.png);
     background-color: #301545;
 }
 .img-container{
-    width: 108px;
-    height: 131px;
-    margin-left: 33%;
+    display: flex;
+    margin-top: 15%;
+    padding-bottom: 0;
+}
+.form-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    display: grid;
 }
 /*...........elements...............*/
-
-
-/*...........modyfier..................*/
-.h1style--center{
-    text-align: center;
+.form-container__input{
+    background-color: #261136;
+    border: #4826A0;
     color: white;
-    margin-bottom: 18%;
+    height: 35px;
+}
+.form-container__label{
+    margin-top: 20px;  
+    font-size: 14px;
+    font-weight: normal;
+}
+.pstyle__last{
+    text-align: center;
+    color: grey;
+}
+/*...........modyfier..................*/
+.img-container--pstyle{
+    color: white;
+    margin: auto;
+    margin-left:0;
+}
+.pstyle__last--line{
+    text-align: center;
+    color: grey;
+    text-decoration-line: underline;
+    text-decoration-color: grey;
 }
 .start-button--white{
     color: white;
     text-decoration: none;
 }
+
