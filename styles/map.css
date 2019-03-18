@@ -18,9 +18,7 @@
 }
 .pstyle{
     font-family: Arial, Helvetica, sans-serif;
- 
     font-size: 14px;
-    height: 48px;
     color: #ffffff;
 }
 .setup{
@@ -56,6 +54,10 @@
     z-index: 1;
 }
 
+.next__borderline{
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
 
 /*.............modyfier..........*/
 
@@ -111,18 +113,21 @@
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     margin: 8px 0 0 35px;
+    border-bottom: solid 1px;
 }
 
 .next__text--two{
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     margin: 8px 0 0 35px;
+    border-bottom: solid 1px;
 }
 
 .next__text--three{
     grid-column: 3 / 4;
     grid-row: 5 / 6;
     margin: 8px 0 0 35px;
+    border-bottom: solid 1px;
 }
 
 .next__text--four{
