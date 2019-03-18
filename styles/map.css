@@ -54,6 +54,10 @@
     z-index: 1;
 }
 
+.next__borderline{
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
 
 /*.............modyfier..........*/
 
