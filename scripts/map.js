@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    var backlink = document.querySelector('.setup__prior');
+    var backlink = document.querySelector('.backlink');
 
     backlink.addEventListener('click', function(){
         history.back();

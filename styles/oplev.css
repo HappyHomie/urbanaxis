@@ -57,6 +57,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 1em;
+    padding-bottom: 4em;
     background: #261136;
 }
 .card1{
@@ -93,6 +94,9 @@
 }
 
             /*Elements*/
+.card-link{
+    text-decoration: none;
+}
 .card-container__card__image{
     width: 100%;
     border-radius: 2%;
