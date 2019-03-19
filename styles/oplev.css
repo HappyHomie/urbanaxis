@@ -93,7 +93,8 @@
 
             /*Elements*/
 .card-container__card__image{
-    width: 100%;
+    width: 189px;
+    height: 162px;
     border-radius: 2%;
 }
 .card-container__card__titel{
