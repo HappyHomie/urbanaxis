@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/styles/detaljeside.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="./assets/scripts/map.js"></script>
     <title>Document</title>
 </head>
-    <body>
-        <div class="topcontainer">
-          <img class="backbutton" src="./assets/images/tilbageknap.png" alt="backbutton">
-         <img class="mainpicture" src="./assets/images/nyhavn.jpg" alt="picture">
-         <img class="starbutton" src="./assets/images/stjerne.png" alt="">
-            <div class="infocontainer">
-              <h3 class="h3">Nyhavn er en af Københavns absolutte turistmagneter</h3>
-              <p class="p"> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat alias consequatur blanditiis natus hic vitae eligendi odio possimus eos veritatis. Facilis quos illo quidem non qui autem atque nostrum. Doloremque quidem repudiandae veritatis aspernatur placeat, saepe ut molestias dolor possimus neque quia consectetur ab error accusamus, facilis eveniet delectus. Praesentium labore soluta enim ab recusandae.</p>
-            </div>
-            <div class="profilmail">
-               <img class="profilimg" src="./assets/images/Avatar.png" alt="profilimg">
+
+<body>
+    <div class="topcontainer">
+        <img class="backbutton setup__prior" src="./assets/images/tilbageknap.png" alt="backbutton">
+        <img class="topcontainer__mainpicture" src="./assets/images/nyhavn.jpg" alt="picture">
+        <img class="topcontainer__starbutton" src="./assets/images/stjerne.png" alt="">
+        <div class="infocontainer">
+            <h3 class="infocontainer__h3">Nyhavn er en af Københavns absolutte turistmagneter</h3>
+            <p class="p">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat alias consequatur blanditiis natus
+                    hic vitae eligendi odio possimus eos veritatis. Facilis quos illo quidem non qui autem atque
+                    nostrum. Doloremque quidem repudiandae veritatis aspernatur placeat, saepe ut molestias dolor
+                    possimus neque quia consectetur ab error accusamus, facilis eveniet delectus. Praesentium labore
+                    soluta enim ab recusandae.</p>
+        </div>
+        <div class="profilmail">
+            <img class="profilmail__profilimg" src="./assets/images/Avatar.png" alt="profilimg">
             <div class="information information--position-one">
-               <h5 class="name">Anna-Maria</h5>
-               <img class="rating" src="./assets/images/Rating.png" alt="rating">
-               <p class="anmeldelser">Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-               <img class="mailbutton mailbutton--positon-one" src="./assets/images/Message Symbol.png" alt="mailbutton">
-               <img class="profilimg" src="./assets/images/Avatar.png" alt="profilimg">
-               <div class="information information--position-two">
                 <h5 class="name">Anna-Maria</h5>
                 <img class="rating" src="./assets/images/Rating.png" alt="rating">
                 <p class="anmeldelser">Lorem ipsum dolor sit amet consectetur.</p>
-             </div>
-                <img class="mailbutton mailbutton--positon-one" src="./assets/images/Message Symbol.png" alt="mailbutton">
-            
             </div>
+            <img class="mailbutton mailbutton--positon-one" src="./assets/images/Message Symbol.png" alt="mailbutton">
+            <img class="profilmail__profilimg" src="./assets/images/Avatar.png" alt="profilimg">
+            <div class="information information--position-two">
+                <h5 class="name">Anna-Maria</h5>
+                <img class="rating" src="./assets/images/Rating.png" alt="rating">
+                <p class="anmeldelser">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <img class="mailbutton mailbutton--positon-one" src="./assets/images/Message Symbol.png" alt="mailbutton">
         </div>
-    </body>
+    </div>
+
+    <div class="commentform">
+        <h4>Nyhavn</h4>
+        <img class="formrating" src="./assets/images/Rating.png" alt="">
+        <img class="formimg1" src="./assets/images/Path 114.png" alt="">
+        <img class="formimg2" src="./assets/images/Mask Group 6.png" alt=""> 
+        <form class="commentform__form" action="" method="">
+                <label for="kommentar"></label>
+                <textarea name="kommentar" id="kommentar" cols="40" rows="5"></textarea>
+        </form>
+    </div>
+    <footer class="footer">
+            <a class="footer__position" href="oplev.html"><img src="./assets/images/home.png" alt="Home"></a>
+            <a class="footer__position footer__position--align footer__position--show" href="map.html"><img src="./assets/images/map.png" alt="Map"></a>
+            <a class="footer__position" href="profilom.html"><img src="./assets/images/om.png" alt="om"></a>
+            <a class="footer__position footer__position--align" href="profilfavoriter.html"><img src="./assets/images/favorit.png" alt="favorit"></a>
+        </footer>
+</body>
+
 </html>
