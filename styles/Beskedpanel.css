@@ -1,0 +1,121 @@
+/* ........name convention BEM.......*/
+
+/*........Block............*/
+*{
+    margin: 0;
+}
+.header{
+    background: linear-gradient(to right,#4527A0, #7B1FA2);
+}
+.header__figure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.background{
+    background-color: #261136;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+ }
+ 
+ .boxblue{
+    background-color: #4527A0;
+    width: 232px;
+    height: 75px;
+    border-radius: 30px 30px 30px 0;
+    margin-left: 10px;
+ }
+ .boxgrey{
+    background-color: #707070;
+    width: 232px;
+    justify-self: flex-end;
+    border-radius: 30px 30px 0 30px;
+    margin-right: 10px;
+ }
+ .textstyle{
+    padding: 5px 5px 3px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+ }
+ .footer{
+     background-color: #431C60;
+     height: 61px;
+     display: flex;
+     align-content: center;
+ }
+/*...........elements...............*/
+.header__1{
+    margin: 47px 0 0 1em;
+    position: absolute;
+    background-color: #4527A0;
+    border: none;
+}
+.header__2{
+    margin-top: 1em;
+    object-fit: cover;
+    width: 375px;
+    height: 150px;
+}
+.form{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url("../images/input.png");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    margin-top: 5px;
+}
+/*...........modyfier..................*/
+.img--one{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: flex-end;
+ }
+ 
+ .img--two{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    align-self: flex-end;
+ }
+ 
+ .img--three{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    align-self: flex-end;
+    margin-bottom: 3em;
+ }
+ 
+ .boxblue--one{
+    margin-top: 20px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 58px;
+ }
+ .boxblue--two{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    height: 79px;
+ }
+ .boxblue--three{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    height: 79px;
+    margin-bottom: 3em;
+ }
+ .boxgrey--one{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 58px;
+ }
+ .boxgrey--two{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    height: 41px;
+ }
+
+
