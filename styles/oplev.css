@@ -136,7 +136,7 @@
 .commercial-container-image{
     width: 100%;
     object-fit: cover;
-    border-radius: 2%;
+    border-radius: 2% 2% 0 0;
 }
 .commercial-container__sponsor{
     padding-top: 6px;;
