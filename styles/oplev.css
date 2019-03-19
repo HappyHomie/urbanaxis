@@ -3,9 +3,7 @@
     padding: 0;
 }
 .h1style{
-    font-family: Verdana;
-    width: 131px; 
-    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .pstyle{
     font-family: Arial, Helvetica, sans-serif;
@@ -54,7 +52,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
-    padding: 1em;
+    padding: 1em 1em 4em 1em;
     background: #261136;
 }
 .card-container__card-link{
@@ -141,12 +139,12 @@
     padding-right: 11px;
 }
 .commercial-container__titel{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 30px;
+    font-size: 25px;
+    padding: 35px 24px 30px 24px;
 }
 .commercial-container__text{
+    color: #CCCCCC;
+    font-size: 18px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 14px;
 }
