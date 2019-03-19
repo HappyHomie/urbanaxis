@@ -61,7 +61,7 @@ html, body{
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    padding: 5px;
+    padding: 5px 5px 4em 5px;
     background-color: #261136;
 }
 .billedgrid__billede{

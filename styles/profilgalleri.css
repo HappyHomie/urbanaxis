@@ -59,7 +59,7 @@
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     background-color: #261136;
-    padding: 10px 5px;
+    padding: 10px 5px 4em 5px;
 }
 .galleri__billede{
     width: 88px;
