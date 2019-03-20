@@ -21,27 +21,27 @@
             /*Elements */
 .header-container__back{
     position: absolute;
-    padding-top: 31.9px;
-    padding-left: 8.5px; 
+    padding-top: 1.99375em;
+    padding-left: 0.53125em; 
 }
 .header-container__titel{
-    font-size: 18px;
-    padding: 31px 20px 13px 55px;
+    font-size: 1.125em;
+    padding: 1.9375em 1.25em 0.8125em 3.4375em;
     color: white;
 }
 .header-container__search {
     z-index: 1;
     border: white;
-    box-shadow: 0px 0px 40px 5px rgba(112,112,112,0.75);
+    box-shadow: 0px 0px 2.5em 0.3125em rgba(112,112,112,0.75);
     box-sizing: border-box;
     font-size: 16px;
     background-color: white;
     background-image: url('../assets/images/search.png');
-    background-position: 12px 12px; 
+    background-position: 0.75em 0.75em; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    width: 93%;
-    margin: 13px 14px 16px 14px;
+    padding: 0.75em 1.25em 0.75em 2.5em;
+    width: 91.2%;
+    margin: 0.8125em 0.875em 1em 0.875em;
 } 
 
             /*Cards */
@@ -50,13 +50,14 @@
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12em 12em 12em 12em 12em 12em;
     grid-gap: 1em;
-    padding: 1em 1em 4em 1em;
+    padding: 1em 1em 5em 1em;
     background: #261136;
 }
 .card-container__card{
-    width: 188px;
+    width: 100%;
+    height: 11.75em;
 }
 .card-container__card-link{
     text-decoration: none;
@@ -96,19 +97,19 @@
 
             /*Elements*/
 .card-container__card-image{
-    width: 188px;
-    height: 162px;
+    width: 100%;
+    height: 8.125em;
     border-radius: 1% 1% 0 0;
 }
 .card-container__card-titel{
     font-size: 14px;
-    padding-top: 10.8px;
-    padding-left: 10.3px;
-    padding-bottom: 5.9px;
+    padding-top: 0.675em;
+    padding-left: 0.64375em;
+    padding-bottom: 0.36875em;
 }
 .card-container__ratingstars{
-    padding-bottom: 11.8px;
-    padding-left: 10px;
+    padding-bottom: 0.7375em;
+    padding-left: 0.625em;
 }
 
             /*Modifiers*/
@@ -139,16 +140,19 @@
     border-radius: 1% 1% 0 0;
 }
 .commercial-container__sponsor{
-    padding-top: 6px;;
-    padding-right: 11px;
+    padding-top: 0.375em;
+    padding-right: 0.6875em;
 }
 .commercial-container__titel{
-    font-size: 25px;
-    padding: 35px 24px 30px 24px;
+    font-size: 20px;
+    padding: 2em 0.6875em 0.5em 0.6875em;
 }
 .commercial-container__text{
     color: #CCCCCC;
-    font-size: 18px;
-    padding-left: 24px;
-    padding-right: 24px;
+    font-size: 14px;
+    padding: 0.5em 1em 1em 1em;
+}
+
+.footer{
+    max-width: 7.75;
 }
